@@ -1,0 +1,75 @@
+form {
+    font-size: 1.6rem;
+}
+
+form fieldset {
+    box-sizing: border-box;
+    margin: 6rem auto;
+    border: 1px solid #999;
+    border-radius: 15px;
+    width: 80%;
+    min-width: 433px;
+}
+
+form legend{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+form ul {
+    list-style: none;
+    margin: 4rem auto;
+    padding-left: 0px;
+}
+
+form li + li {
+    margin-top: 15px;
+}
+
+form label {
+    display: inline-block;
+    width: 35%;
+    min-width: 126px;
+    text-align: right;
+}
+
+form input {
+     width: 45%;
+     height: 25px;
+     min-width: 250px;
+     margin-left: 10px;
+     font-size: 1.5rem;
+     box-sizing: border-box;
+     border: 1px solid #999;
+}
+
+form input[id="datebirth"] {
+     max-width: 139px;
+     min-width: 139px;
+}
+
+button {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 15px;
+
+   font-size: 18px;
+   border: 1px solid #c4a5a5;
+   border-radius: 5px;
+   box-shadow: 0.5px 0.5px #a899ca8c;
+}
+
+button:hover {
+  font-size: 19px;
+}
+
+button:active{
+  font-size: 18px;
+  background-color: beige;
+}
+
+input:focus {
+   border: 2px solid black;
+}

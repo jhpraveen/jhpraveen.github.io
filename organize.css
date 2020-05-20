@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html {
+      font-size: 10px;
+      font-family: sans-serif;
+}
+
+/*******************
+      Decoration (font / background)
+*******************/
+
+.container {
+    background-color: white ;   
+    font-size: 1.8rem ;
+}
+
+header {
+    background-color: mediumaquamarine;
+}
+
+nav {
+    border-right: 1px solid silver ;
+}
+
+nav ul {
+     list-style-type: none ;
+}
+
+nav a {
+/*     font-size: 1.8rem;    */
+     border : 1px dotted pink ;
+     border-radius: 10px;
+     padding: 8px;
+     text-decoration: none ; 
+     box-shadow : 1.5px 1.5px 1px pink; 
+}
+
+nav a.current-page {
+     border: none;
+     box-shadow: none;
+     padding: 3px 0px;
+     color: green;
+     border-bottom: 1px solid black;
+     border-radius : 0px;
+}
+
+nav a:link {
+     color: chocolate;
+}
+nav a:visited {
+     color: chocolate;
+}
+
+nav a.link:hover {
+    font-size: 1.9rem;
+    border: 1px solid pink;
+}
+
+h1 {
+  font-family: 'satisfy', cursive;
+  letter-spacing: 0.3rem; 
+  text-align: center;
+  font-size: 36px;
+}
+
+p {
+    text-align: justify ;
+}
+
+footer {
+    background : mediumaquamarine;
+    color : white;
+    margin: 10px auto;
+    padding-left : 20px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer p {
+     text-align: left ;
+     font-size: 1.9rem;
+}
+
+/*******************
+      layout
+*******************/
+
+.container { 
+    max-width: 900px;
+    min-width: 504px;
+    width: 90% ;
+    margin: 0px auto;
+}
+
+header {
+    display: flex ;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    min-width: 469.8px;
+}
+
+.mainwithmenu {
+    display: flex ;
+    justify-content: space-between ; 
+    margin-bottom: 100px;
+  
+}
+
+main {
+   width: 70% ;
+   margin-left : 20px;
+   padding-right:20px;
+}
+
+nav {
+    width: 20% ; 
+    min-width: 180px;
+    margin-top : 30px;
+    padding-top: 0px;
+    padding-right: 0px;  
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center ;
+    height: 165px ;
+    padding: 0px;    /* Ovewriting default value */
+}
+
+footer p {
+    margin: 10px;   	/* Overwriting prapragraphtag's default margin of 20px */
+}
