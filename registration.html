@@ -5,6 +5,23 @@
         <link  rel="stylesheet" href="styles/organize.css" type="text/css">
         <link rel="stylesheet" href="styles/form-styling.css" type="text/css">
         <title>Registration</title>
+        <script>
+             function validateFields() {
+                 console.log("Function Called");
+                var valueOfName = document.getElementById('name').value;
+                var valueOfDob = document.getElementById('datebirth').value;
+                var valueOfEmail = document.getElementById('mail').value;
+                if((""+valueOfName).length == 0){
+                    alert("Name Can't Be Empty");
+                }
+                if((""+valueOfDob).length == 0){
+                    alert("DOB Can't Be Empty");
+                }
+                if((""+valueOfEmail).length == 0){
+                    alert("Email Can't Be Empty");
+                }
+            }
+        </script>
     </head>
 
     <body>
@@ -32,21 +49,21 @@
                                              <ul>
                                                  <li>
                                                      <label for="name">Student&apos;s Name: </label>
-                                                     <input type="text" id="name" name="stud_name" required>
+                                                     <input type="text" id="name" name="stud_name">
                                                  </li>
 
                                                   <li>
                                                      <label for="datebirth">Date of Birth: </label>
-                                                     <input type="date" id="datebirth" name="stud_dob" required>
+                                                     <input type="date" id="datebirth" name="stud_dob">
                                                   </li>
 
                                                   <li>
                                                      <label for="mail">E-mail Address:</label>
-                                                     <input type="text" id="mail" name="stud_email" required>
+                                                     <input type="text" id="mail" name="stud_email">
                                                   </li>
 
                                                   <li>
-                                                     <button type="submit">SUBMIT</button>
+                                                     <button type="submit" onsubmit="validateFields()">SUBMIT</button>
                                                   </li>
 
                                              </ul>
