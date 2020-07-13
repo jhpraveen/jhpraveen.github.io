@@ -1,4 +1,4 @@
-# web-project
+# web-project-1
 
 This project is created as a college assignment which asks for creating a website for an online exam conducting Company.
 
