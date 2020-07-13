@@ -4,31 +4,15 @@
         <meta charset="utf-8">
         <link  rel="stylesheet" href="styles/organize.css" type="text/css">
         <link rel="stylesheet" href="styles/form-styling.css" type="text/css">
+        <script src="scripts/form-validation.js" defer></script>
         <title>Registration</title>
-        <script>
-             function validateFields() {
-                 console.log("Function Called");
-                var valueOfName = document.getElementById('name').value;
-                var valueOfDob = document.getElementById('datebirth').value;
-                var valueOfEmail = document.getElementById('mail').value;
-                if((""+valueOfName).length == 0){
-                    alert("Name Can't Be Empty");
-                }
-                if((""+valueOfDob).length == 0){
-                    alert("DOB Can't Be Empty");
-                }
-                if((""+valueOfEmail).length == 0){
-                    alert("Email Can't Be Empty");
-                }
-            }
-        </script>
     </head>
 
     <body>
           <div class= "container" >
         
                 <header style="min-width: 660px;">
-                       <img src="images/short-logo.png" 
+                       <img src="images/company-logo.png" 
                                 alt="ExamTree Logo">
                 </header>
 
@@ -43,27 +27,27 @@
                        </nav>
 
                        <main>
-                               <form action="" method="" onsubmit="validateFields()">
+                               <form method="POST">
                                       <fieldset>
                                              <legend>Registration Form</legend>
                                              <ul>
-                                                 <li>
+                                                 <li class= "name-field">
                                                      <label for="name">Student&apos;s Name: </label>
                                                      <input type="text" id="name" name="stud_name">
                                                  </li>
 
-                                                  <li>
+                                                  <li class="dob-field">
                                                      <label for="datebirth">Date of Birth: </label>
-                                                     <input type="date" id="datebirth" name="stud_dob">
+                                                     <input type="text" placeholder = "DD/MM/YYYY " id="datebirth" name="stud_dob">
                                                   </li>
 
-                                                  <li>
+                                                  <li class= "email-field">
                                                      <label for="mail">E-mail Address:</label>
                                                      <input type="text" id="mail" name="stud_email">
                                                   </li>
 
                                                   <li>
-                                                     <button type="submit" onclick="validateFields()">SUBMIT</button>
+                                                     <button type="submit">SUBMIT</button>
                                                   </li>
 
                                              </ul>
