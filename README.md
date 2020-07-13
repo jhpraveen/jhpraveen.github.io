@@ -30,6 +30,8 @@ student appearing in examination, his/her date of birth, and email Id. You must
 use JavaScript to check that all the fields are filled by the person registering for an
 online examination.
 
-### Assumption
 
-- Company Name is assumed to be Examtree and a simple logo is designed for it uning svg(inkscape) and converted to png file.
+### Implementation Details
+
+- (Assumption) Company Name is assumed to be Examtree and a simple logo is designed for it uning svg(inkscape) and converted to png file.
+- This project/website is implemented using only html, css, and Javascript code.
