@@ -3,14 +3,14 @@
 This project is created as a college assignment which asks for creating a website for an online Exam Conducting Company.
 
 
-Company Specification:
+## Company Specification:
 
 At the beginning of each month, the company announces the Examination Schedule of the month. 
 This schedule includes date, subject, fee and venue of the examination. 
 A student needs to register himself/herself for the examination of his/her choice. 
 
 
-Company's Requirement Specification: 
+## Company's Requirement Specification: 
 
 Create four web pages for the web site of this Online Examination Company. 
 The four web pages are the Home Page, Monthly Schedule Page, Syllabus Page and  Registration Page.
