@@ -1,6 +1,6 @@
 # web-project
 
-This project is created as a college assignment which asks for creating a website for an online Exam Conducting Company.
+This project is created as a college assignment which asks for creating a website for an online exam conducting Company.
 
 
 ## Company Specification:
@@ -10,23 +10,26 @@ This schedule includes date, subject, fee and venue of the examination.
 A student needs to register himself/herself for the examination of his/her choice. 
 
 
-## Company's Requirement Specification: 
+## Requirement Specification: 
 
 Create four web pages for the web site of this Online Examination Company. 
-The four web pages are the Home Page, Monthly Schedule Page, Syllabus Page and  Registration Page.
+The four web pages are the Home Page, the Monthly-Schedule Page, the Syllabus Page and the Registration Page.
 
-Home page should include Welcome message, year of establishment of online
+- Home page should include Welcome message, year of establishment of online
 examination company and brief details of the company.
 
-Monthly Schedule page should show the Schedule of the month. This schedule
+- Monthly Schedule page should show the Schedule of the month. This schedule
 should include date of examination, subject of examination, fee and venue of the
-examination, year of launch, price and comments of people. You must make this
-list using Table tags.
+examination, year of launch, price and comments of people. (Make use of Table tags.)
 
-Syllabus page displays the syllabus of various examination. The page should be
+- Syllabus page displays the syllabus of various examination. The page should be
 linked to Subject of examination.
 
-Registration page should contain a form which should have fields - name of the
+- Registration page should contain a form which should have fields - name of the
 student appearing in examination, his/her date of birth, and email Id. You must
 use JavaScript to check that all the fields are filled by the person registering for an
 online examination.
+
+## Assumption
+
+Company Name is assumed to be Examtree and a simple logo is designed for it uning svg(inkscape) and converted to png file.
