@@ -32,4 +32,4 @@ online examination.
 
 ### Assumption
 
-Company Name is assumed to be Examtree and a simple logo is designed for it uning svg(inkscape) and converted to png file.
+- Company Name is assumed to be Examtree and a simple logo is designed for it uning svg(inkscape) and converted to png file.
